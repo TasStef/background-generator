@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "pencil";
+  src: url("sketch-pencil-demo\\SketchPencilDemoRegular.ttf");
+}
+
+html {
+  background: url("sj-objio-XFWiZTa2Ub0-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: "pencil";
+  font-size: 3rem;
+}
+
+.coolTitle {
+  transform: skewY(-7deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-weight: bold;
+}
+
+.instructions{
+  font-weight: 600;
+  margin-top: 3%;
+}
+
+.container{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+
+}
+
+
+
+#userInput{
+  width: 20rem;
+  height: 2rem;
+  font-weight: bold;
+  background-color: rgba(240, 248, 255, 0.123);
+}
+
+button{
+
+  background-color: #b7b6629f ;
+}
+
+.input-container{
+  display: flex;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li{
+  font-weight: 500;
+  text-shadow: 0.25rem 0rem 0.45rem rgb(0, 0, 0);
+
+}
+
+li:hover{
+  cursor: pointer;
+}
+
